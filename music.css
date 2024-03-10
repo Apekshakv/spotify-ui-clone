@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.redd{
+    display: flex;
+   list-style-type: none;
+   height: 65px;
+   align-items: center;
+   font: bold;
+  
+   background-color: black;
+  }
+
+  a{
+    text-decoration: none;
+    font: bold;
+    color:white;
+    
+}
+.HK{margin: 2;
+    width: 160px;
+    padding: 4;
+}
+.container{
+    display: flex;
+    gap: 110px;
+    flex-wrap: wrap;
+}
+.HKk{
+    width: 180px;
+}
+body{
+    background-color:plum;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font: bold;
+}
+.Kk{
+    width: 180px;
+}
+.HKo{
+    width: 180px;
+}
+.fr{ 
+   display: flex;
+    background-color: black;
+}
+li{  list-style-type: none;
+    padding: 0 12px;
+    color: beige;
+}
+.ari{
+    display: block;
+    background-color: black;
+}
+.dog{
+    color: bisque;
+}
+h2{
+   color: black; 
+}
+button:hover{
+    background-color: PLUM;
+}
+.KKk{
+    width: 185px;
+}
+
+@media only screen and (max-width: 100px) {
+    body {
+      background-color: plum;
+    }}

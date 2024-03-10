@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.redd{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font: bold;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.redd{
+    display: flex;
+   list-style-type: none;
+   height: 65px;
+   align-items: center;
+   font: bold;
+   color: white;
+   background-color: black;
+  
+  }
+
+  .doll{
+ width: 60px;
+ border-radius: 30px;
+  }
+ .rat{
+    width: 30px;
+    
+ }
+ .ok{
+    width: 30px;
+ }
+ .rt{
+     margin:1;
+    width: 30px;
+ }
+ .cat{
+    width: 30px;
+    
+ }
+ .songlist{
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    align-items: center;
+    font: bold;
+    color: black;
+    background-color:white;
+    margin: 12px 0;
+   width: 400px;
+   align-items: center ;
+  justify-content: space-between;
+  border-radius: 10px;
+ }
+ .songpaly{
+    padding: 0 12px;
+   width: 9px;
+ }
+h1{
+    justify-content: center;
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        color: black;
+        font-size:60px;
+        
+}
+h2{
+    justify-content: center;
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        color: black;
+        font-size:60px;
+}
+.container{
+    background-color:plum;
+  
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+    bottom: 0;
+   background-color: black;
+   
+}
+#bar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+#jk{
+    width: 60px;
+ border-radius: 30px;
+ justify-content: center;
+ display: flex;
+ align-items:center;
+ border-color: white;
+ flex-direction: row;
+}
+.icons{
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+}
+body{
+    background-color:plum;
+ 
+}
+.hk{
+    display: flex;
+    justify-content: end;
+}
+#ftr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.songlistt{
+    display: flex;
+   
+}
+.song{
+    padding: 0 32px;
+   width: 8px;
+}
+.ts{
+    width:30px;
+}
+.xe{
+    width:30px; 
+}
+.lion{
+    width:30px;
+}
+.poo{
+    width: 30px;
+}
+.yt{
+    width:30px;
+}
+.gf{
+    width:30px;
+}
+@media screen and (max-width: 768px) {
+    h2{
+        display: none;
+    }
+}
